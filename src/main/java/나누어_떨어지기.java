@@ -24,6 +24,7 @@ public class 나누어_떨어지기 {
             return answer;
         }
 
+
         // 값 삽입
         for(int i =0; i<arr.length; i++){
             if(arr[i]%divisor==0){

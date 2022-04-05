@@ -1,17 +1,17 @@
 import java.util.Arrays;
 
-public class 행렬의_덧셈 {
+public class 이차원배열_회전 {
 
     public static void main(String [] args){
-        Solution solution = new Solution();
+        이차원배열_회전 solution = new 이차원배열_회전();
         int[][] result1 = {{1,2},{3,4}};
         int[][] result2 = {{1,2,3},{4,5,6}};
         solution.solution(result1,2);
 
     }
-}
 
-class Solution {
+
+
     public int[][] solution(int[][] matrix, int r) {
         int length = matrix.length;
         int[][] answer = matrix;
@@ -32,6 +32,7 @@ class Solution {
 
         return answer;
     }
+
 }
 
 

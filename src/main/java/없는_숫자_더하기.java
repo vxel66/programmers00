@@ -22,4 +22,5 @@ public class 없는_숫자_더하기 {
         solution(abc);
     }
 
+
 }
