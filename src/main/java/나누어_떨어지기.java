@@ -38,6 +38,7 @@ public class 나누어_떨어지기 {
             }
         }
 
+
         Arrays.sort(answer);
         return answer;
     }
